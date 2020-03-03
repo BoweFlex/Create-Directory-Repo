@@ -10,11 +10,11 @@ def createProj():
     
     login_button = browser.find_element_by_xpath("//*[@id='login_field']")
     login_button.click()
-    login_button.send_keys("bowe.jonathan@yahoo.com")
+    login_button.send_keys("helloworld@gmail.com") # Replace with your email
 
     pass_button = browser.find_element_by_xpath("//*[@id='password']")
     pass_button.click()
-    pass_button.send_keys("J0n@th@nB0w3")
+    pass_button.send_keys("HelloWorld") # Replace with your password
 
     submit_button = browser.find_element_by_xpath("//*[@id='login']/form/div[4]/input[9]")
     submit_button.click()
