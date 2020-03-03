@@ -5,7 +5,7 @@ function create() {
 	mkdir $1
 	cd ~/Projects/$1
 
-	python ~/Projects/CreateProj/main.py $1
+	python ~/Projects/CreateProj/main.py $1 # Change path to match path to this file on your computer
 	
 	git init
 	touch README.md
